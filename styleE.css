@@ -1,0 +1,193 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.hero nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero nav h1{
+    color: #FCC10A;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Baloo 2";
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 80px; /* 100% */
+    margin: 0;
+}
+.hero nav p{
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Baloo 2";
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 80px; /* 200% */
+    margin: 0%;
+    width: 858px;
+    height: 242px;
+}
+.wireframe{
+    background-image: url(slike/1.jpg) ;
+    background-size: cover;
+    width: 1440px;
+    height: 438px;
+}
+.design{
+    background-image: url(slike/2.jpg) ;
+    background-size: cover;
+    width: 1440px;
+    height: 438px;
+}
+.program{
+    background-image: url(slike/3.jpg) ;
+    background-size: cover;
+    width: 1440px;
+    height: 438px;
+}
+.test{
+    background-image: url(slike/4.jpg) ;
+    background-size: cover;
+    width: 1440px;
+    height: 438px;
+}
+.alati{
+    background-image: url(slike/background.jpg);
+    background-size: cover;
+    width: 1440px;
+    height: 1800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+.alati h2{
+    color: #FCC10A;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Baloo 2";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px; /* 100% */
+}
+.alati h1{
+    color: #FCC10A;
+    text-align: center;
+    font-family: "Baloo 2";
+    font-size: 37px;
+    font-weight: 600;
+    margin: 0;
+}
+.alati p{
+    color: #000;
+    text-align: center;
+    font-family: "Baloo 2";
+    font-size: 31px;
+    font-weight: 400;
+    margin: 0;
+    width: 711px;
+    height: 117px;
+}
+.alati nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
+}
+.illustrator{
+    margin-left: 450px;
+}
+.visual {
+    margin-left: 450px;
+}
+
+
+
+@media only screen and (max-width: 440px) {
+    .hero p{
+        display: none;
+    }
+    .hero nav h1{
+        font-size: 40px;
+    }
+    .wireframe{
+    display: flex;
+    height: 215px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    align-self: stretch;
+    }
+    .design{
+        display: flex;
+        height: 215px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 10px;
+        align-self: stretch;
+        }
+        .program{
+            display: flex;
+            height: 215px;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            gap: 10px;
+            align-self: stretch;
+            }
+            .test{
+                display: flex;
+                height: 215px;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                gap: 10px;
+                align-self: stretch;
+                }
+                
+    .alati{
+        display: flex;
+        align-items: flex-start;
+        width: 440px;
+        height: 765px;
+        gap: 50px;
+    }
+    .alati h2{
+        padding-left: 130px;
+    }
+    .alati nav{
+        padding-left: 10px;
+        gap: 50px;
+    }
+    .alati svg{
+    width: 65px;
+    height: 65px;
+    }
+    .alati p{
+        display: none;
+    }
+    .alati h2{
+        font-size: 50px;
+    }
+    .illustrator{
+        margin: 0;
+    }
+    .visual{
+        margin: 0;
+    }
+}

@@ -28,9 +28,11 @@ document.addEventListener('click', (event) => {
 });
 
 const searchResultsList = [
-    { title: 'politehnick skola subotica pocetna', link: 'https://www.politehnickasu.edu.rs/' },
-    { title: 'politehnick skola subotica plan upisa', link: 'https://www.politehnickasu.edu.rs/plan-upisa/' },
-    { title: 'politehnick skola subotica radovi', link: 'https://www.politehnickasu.edu.rs/nagradeni-radovi/' },
+    { title: 'Početna', link: 'pocetna.html' },
+    { title: 'Proces Rada', link: 'procesrada.html' },
+    { title: 'O Smeru', link: 'osmeru.html' },
+    { title: 'Učenici', link: 'ucenici.html' },
+    { title: 'Kontakt', link: 'kontakt.html' },
 ];
 
 
